@@ -181,9 +181,6 @@ details p {
     top: 270px !important;
     clip-path: polygon(0 10%, 70% 10%, 100% 50%, 70% 90%, 0% 90%) !important;
   }
-  .page-title-shootings {
-    padding-left: 50px !important;
-  }
   .page-title-galerie h1, .page-title-galerie .h1 {
     padding-left: 80px !important;
   }
