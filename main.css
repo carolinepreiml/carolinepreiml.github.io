@@ -158,6 +158,10 @@ details p {
   .banner-img {
     content: url(images/Home/IMG_5580.jpg);
   }
+  .details {
+    padding-left: 1px !important;
+    padding-right: 10px !important;
+  }
 }
 @media (max-width: 600px) {
   .navbar-brand {
@@ -196,6 +200,10 @@ details p {
   }
   .py-6 {
     padding-top: 2rem;
+  }
+  .details {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
   #shootingablauf {
     padding-top: 2rem !important;
