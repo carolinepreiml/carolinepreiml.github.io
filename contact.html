@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="bootstrap.js"></script>
+    <title>Caroline Preiml - Kontakt</title>
+  </head>
+  <body>
+    <!-- #region Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <!-- Hamburger -->
+      <div class="container">
+        <a href="index.html" class="navbar-brand" style="display: none;">Caroline Preiml Fotografie</a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navmenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-4">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item px-4">
+              <a href="shootings.html" class="nav-link">Info & Preise</a>
+            </li>
+            <li class="nav-item px-4">
+              <a href="galerie.html" class="nav-link">Galerie</a>
+            </li>
+            <li class="nav-item px-4 pe-5">
+              <a href="contact.html" class="nav-link">Kontakt & Buchung</a>
+            </li>
+            <li class="nav-item nav-social">
+              <a
+                href="https://www.facebook.com/kaydee.bentley"
+                class="nav-link"
+                target="_blank"
+              >
+                <img
+                  src="images/Icons/facebook.svg"
+                  alt=""
+                  style="filter: invert(100%)"
+                />
+              </a>
+            </li>
+            <li class="nav-item nav-social">
+              <a
+                href="https://www.instagram.com/caroline.preiml/"
+                class="nav-link"
+                target="_blank"
+              >
+                <img
+                  src="images/Icons/instagram.svg"
+                  alt=""
+                  style="filter: invert(100%)"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- #endregion -->
+
+    <!-- #region Landing Page -->
+    <section
+      class="bg-dark text-light text-center modal-dialog-centered"
+      style="
+        background-image: url(images/Banner/IMG_9582.jpg);
+        width: 100vw;
+        height: 50vh;
+        max-width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 200px;
+      "
+     oncontextmenu="return false">
+    <div class="container">
+      <div class="page-title-contact" style="background-color: rgb(236, 236, 236); max-width: 35%; color: black; padding: 50px 50px 50px 0px; clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); position: relative; top: 100px; left: 600px;">
+        <h1 style="text-align: end; padding-right: 50px; letter-spacing: 0.2rem;">Kontakt</h1>
+      </div>
+    </div>
+  </section>
+    <!-- #endregion -->
+
+    <!-- #region Contact -->
+    <section class="py-6 p-6">
+      <div class="container">
+        <h1 class="text-center pb-5">Anfragen und Buchung</h1>
+        <div class="row g-4">
+          <div class="col-md text-center">
+            <form action="https://formsubmit.co/cp-fotografie@outlook.com" method="POST">
+              <!-- #region Disable Captcha -->
+              <input type="hidden" name="_captcha" value="false">
+              <!-- #endregion -->
+              <!-- #region own success page-->
+              <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html" > -->
+              <input type="hidden" name="_next" value="https://carolinepreiml.github.io/success.html" >
+              <!-- #endregion -->              
+              <input type="name" class="form-control" name="name" placeholder="Name">
+              <input type="email" class="form-control" name="email" placeholder="Email" required>
+              <select name="category" name="category" class="form-select">
+                <option selected>Thema wählen</option>
+                <option value="Anfrage Shooting">Anfrage Shooting</option>
+                <option value="Kooperation">Kooperation</option>
+                <option value="Sonstiges">Sonstiges</option>
+              </select>
+            <textarea name="message" id="" rows="6" class="form-control" placeholder="Nachricht" required></textarea>
+            <button type="submit" class="btn btn-dark">Abschicken</button>
+          </div>
+          <div class="col-md">
+            <p class="contact">
+              <a href="https://goo.gl/maps/V7nboQti9EPA8maq9" target="_blank">
+              <img src="images/Icons/geo-alt-fill.svg" alt="">
+              9020 Klagenfurt am Wörthersee
+              <br><span style="padding-left:55px;"> Kärnten, Österreich</span>
+              </a>
+            </p>
+            <p class="contact">
+              <a href="https://www.facebook.com/kaydee.bentley" target="_blank">
+              <img src="images/Icons/facebook.svg" alt="">
+              Facebook.com/kaydee.bentley
+              </a>
+            </p>
+            <p class="contact">
+              <a href="https://www.instagram.com/caroline.preiml/" target="_blank">
+              <img src="images/Icons/instagram.svg" alt="">
+              @caroline.preiml
+              </a>
+            </p>
+          </div>
+      </div>
+    </section>    
+    <!-- #endregion -->
+
+    <!-- #region Footer -->
+    <div class="bg-dark text-light text-center p-2">
+      &copy;2022 Caroline Preiml
+    </div>
+    <!-- #endregion -->
+  </body>
+</html>
