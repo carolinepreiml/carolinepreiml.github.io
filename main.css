@@ -202,10 +202,15 @@ details p {
   .py-6 {
     padding-top: 2rem;
   }
-  .details {
+  details {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+  
+  .shooting-pakete{
+    margin: 0px!important;
+  }
+  
   #shootingablauf {
     padding-top: 2rem !important;
   }
