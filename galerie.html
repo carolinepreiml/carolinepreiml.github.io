@@ -104,7 +104,7 @@
             <div class="modal-dialog">
               <div class="modal-content bg-dark text-end">
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                <img src="images/Galerie/IMG_2230.jpg" oncontextmenu="return false">
+                <img id="yourElement" src="images/Galerie/IMG_2230.jpg">
               </div>
             </div>
           </div>
@@ -638,5 +638,13 @@
       &copy;2022 Caroline Preiml
     </div>
     <!-- #endregion -->
+        <script>
+        document.getElementById('yourElement').oncontextmenu = function(event) {
+    event.preventDefault();
+    event.stopPropagation(); // not necessary in my case, could leave in case stopImmediateProp isn't available? 
+    event.stopImmediatePropagation();
+    return false;
+};
+        </script>
   </body>
 </html>
