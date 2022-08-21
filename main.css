@@ -159,10 +159,6 @@ details p {
   .banner-img {
     content: url(images/Home/IMG_5580.jpg);
   }
-  details{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
 }
 @media (max-width: 600px) {
   .navbar-brand {
