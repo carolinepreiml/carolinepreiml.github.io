@@ -159,8 +159,8 @@ details p {
   .banner-img {
     content: url(images/Home/IMG_5580.jpg);
   }
-  .details {
-    padding-left: 1px !important;
+  details{
+    padding-left: 10px !important;
     padding-right: 10px !important;
   }
 }
