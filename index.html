@@ -12,6 +12,9 @@
     <meta property="og:image:type" content="image/jpeg" /> 
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <!-- Ratings -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- #region Navbar -->
@@ -138,8 +141,29 @@
         </div>
       </div>
     </section>
+
+    <!-- #region Erfahrungen -->
+    <section class="py-6 p-6">
+      <div class="container">
+        <div style="position: relative; text-align: center">
+          <div>
+            <h1 class="pb-5">Rezensionen</h1>
+            <br>
+            <div class="row">
+              <div class="owl-carousel owl-theme">
+                <img class="img-fluid px-2 img-ratings" src="images/Home/Ratings/Ratings_Emma.png" oncontextmenu="return false">
+                <img class="img-fluid px-2 img-ratings" src="images/Home/Ratings/Ratings_Christin.png" oncontextmenu="return false">
+                <img class="img-fluid px-2 img-ratings" src="images/Home/Ratings/Ratings_Django.png" oncontextmenu="return false">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #endregion -->
+    
     <!-- #region Banner2 -->
-    <section class="bg-black py-6">
+    <section class="bg-black">
       <div class="banner-2" 
         style="
           background-image: url(images/Banner/IMG_6003.jpg);
@@ -226,5 +250,28 @@
       &copy;2022 Caroline Preiml
     </div>
     <!-- #endregion -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+    </script>
+
   </body>
 </html>
