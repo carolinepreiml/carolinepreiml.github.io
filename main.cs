@@ -237,8 +237,8 @@ details p {
     padding: 0 50px !important;
   }
   #gallerynew {
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px 150px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px 180px;
   }
   .w-1,
 .w-2,
@@ -11147,4 +11147,4 @@ h5, .h5 {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */
