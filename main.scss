@@ -149,7 +149,7 @@ details p {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   #gallerynew {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 200px 200px;
@@ -294,23 +294,13 @@ details p {
   .banner {
     position: absolute;
     top: 50%;
-    left: 75%;
+    left: 82%;
     transform: translate(-50%, -50%);
     max-width: 400px !important;
   }
 }
 
-@media (min-width: 900px) {
-  .banner {
-    position: absolute;
-    top: 50%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    max-width: 300px !important;
-  }
-}
-
-@media (min-width: 640px) {
+@media (min-width: 1400px) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
