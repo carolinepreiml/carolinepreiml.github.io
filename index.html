@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- #region Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top" style="visibility: 50%;">
       <!-- Hamburger -->
       <div class="container">
         <a href="index.html" class="navbar-brand" style="display: none;">Caroline Preiml Fotografie</a>
@@ -34,16 +34,19 @@
         <div id="navmenu" class="collapse navbar-collapse">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-4">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link current">Home</a>
             </li>
             <li class="nav-item px-4">
-              <a href="shootings.html" class="nav-link">Info & Preise</a>
+              <a href="shootings.html" class="nav-link">Angebot</a>
             </li>
             <li class="nav-item px-4">
-              <a href="galerie.html" class="nav-link">Galerie</a>
+              <a href="galerie.html" class="nav-link">Einblicke</a>
             </li>
-            <li class="nav-item px-4 pe-5">
-              <a href="contact.html" class="nav-link">Kontakt & Buchung</a>
+            <li class="nav-item px-4">
+              <a href="contact.html" class="nav-link">Kontakt</a>
+            </li>
+            <li class="nav-item px-4">
+              <a href="faqs.html" class="nav-link">FAQs</a>
             </li>
             <li class="nav-item px-4 pe-5">
               <a href="Turnierfotos.html" class="nav-link">Turnierfotos</a>
@@ -107,10 +110,11 @@
     <!-- #endregion -->
 
     <!-- #region Text with 3 images -->
-    <section class="bg-black py-6">
+    <section class="bg-light py-6">
       <div class="text-center">
-        <h2 class="p-6" style="color: #ffffff8c">
+        <h2 class="p-6">
           GLÜCKSMOMENTE festhalten macht FREUDE dauerhaft.
+          <div style="font-style: italic; font-size: small; padding-top:10px;">- Caroline Preiml</div>
         </h2>
         <img
         src="images/Home/IMG_2481.jpg"
@@ -118,43 +122,57 @@
         class="img-fluid threeimages" oncontextmenu="return false"
         />
         <img
+          src="images/Home/JJ0A1927.jpg"
+          alt=""
+          class="img-fluid threeimages" oncontextmenu="return false"
+        />
+        <img
         src="images/Home/IMG_3850.jpg"
         alt=""
         class="img-fluid threeimages" oncontextmenu="return false"
-        />
-        <img
-          src="images/Home/IMG_1126.jpg"
-          alt=""
-          class="img-fluid threeimages" oncontextmenu="return false"
         />
       </div>
     </section>
     <!-- #endregion -->
 
-    <section class="bg-black py-6 p-6">
+    <section class="bg-light py-6 p-6">
       <div style="position: relative; text-align: center">
         <img class="img-fluid banner-img" src="images/Banner/Banner.jpg"  oncontextmenu="return false"/>
         <div class="banner" style="max-width: 400px;">
-          <h2>HERZLICH WILLKOMMEN!</h2>
+          <h2>Von der Leidenschaft zur Berufung</h2>
           <br />
           <p style="line-height: 1.7rem; margin-bottom: 1.2rem; text-align: justify;">
-            Meet Caroline, a 24-year-old photography enthusiast with a passion for the great outdoors and animals. When she's not busy taking stunning photographs of nature, animals and the mountains, you can find her cuddling with her two dogs and spending time with her boyfriend. Living in Klagenfurt, Caroline's photographs are characterized by her keen eye for detail and her love for the natural world. With her passion for animal photography, her photographs are sure to leave a lasting impression.
+            Was einst als reines Hobby begann, entwickelte sich im Laufe der Zeit zu einer erfüllenden Passion. Die ständige Weiterentwicklung meiner Fähigkeiten und meine Liebe zum Detail haben mir rasch einen unverwechselbaren Ruf als Tierfotografin eingebracht. Mit meinen Arbeiten möchte ich die Emotionen der Lieblinge an unserer Seite auf eindrucksvolle Weise einfangen und halte eure Glücksmomente für die Ewigkeit fest.
           </p>
-          <!-- <p style="line-height: 1.7rem; margin-bottom: 1.2rem; text-align: justify;">
-            Ich bin Caroline und lebe in Klagenfurt, wo mir die Tierfotografie die Gelegenheit gibt zwei meiner größten Leidenschaften miteinander zu verbinden. Glücksmomente im Bild festzuhalten bedeutet für mich der Freude des Augenblicks Dauer zu verleihen. Hauptsächlich fotografiere ich in Kärnten, freue mich aber ebenso, wenn ich überregional tätig sein darf.
-          </p> -->
-          <a href="galerie.html"><button class="btn btn-dark">Zur Galerie</button></a>  
-          <a href="contact.html"><button class="btn btn-dark">Fotosession buchen</button>  </a>
+          <a href="galerie.html"><button class="btn btn-dark" style="margin: 5px;">Zu den Einblicken</button></a>  
+          <a href="shootings.html"><button class="btn btn-dark" style="margin: 5px;">Zum Angebot</button></a>  
+          <a href="contact.html"><button class="btn btn-dark" style="margin: 5px;">Kontakt aufnehmen</button></a>
         </div>
       </div>
     </section>
+
+    <!-- #region Banner2 -->
+    <section>
+      <div class="banner-2" 
+        style="
+          background-image: url(images/Banner/JJ0A0769.jpg);
+          position: relative;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 80vh;
+        "
+        oncontextmenu="return false">
+    </section>
+    <!-- #endregion-->    
 
     <!-- #region Erfahrungen -->
     <section class="py-6 p-6">
       <div class="container">
         <div style="position: relative; text-align: center">
           <div>
-            <h1 class="pb-5">Rezensionen</h1>
+            <h1 class="pb-5">Kundenfeedback</h1>
             <br>
             <div class="row">
               <div class="owl-carousel owl-theme">
@@ -179,7 +197,7 @@
     <!-- #endregion -->
     
     <!-- #region Banner2 -->
-    <section class="bg-black">
+    <section>
       <div class="banner-2" 
         style="
           background-image: url(images/Banner/IMG_0888.jpg);
@@ -194,25 +212,9 @@
     </section>
     <!-- #endregion-->
 
-    <!-- #region Sonderangebote -->
-    <!-- <section class="py-6 p-6">
-      <div class="container">
-        <div style="position: relative; text-align: center">
-          <div>
-            <h1 class="pb-5">Zeitlich begrenzte Sonderangebote</h1>
-            <img
-            src="images/Shooting/Weihnachtsshooting.jpg"
-            alt=""
-            class="img-fluid" oncontextmenu="return false" style="max-height: 760px;"
-            />
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- #endregion -->
-
     <!-- #region Ausstellungen -->
-    <section class="bg-black py-6 p-6" style="color: #ffffff8c;">
+    <section class="bg-light py-6 p-6">
+      <h1 class="pb-5" style="text-align: center;">Ausstellungen</h1>
       <div class="container">
         <div class="row g-4 text-center">
           <div class="col-md-4 img-fluid" style="align-self: center;">
@@ -220,14 +222,41 @@
           </div>
           <div class="col-md hartlauer">
             <h2 style="padding-bottom: 10px;">"Viechereien - Die wunderbare Welt der Tierfotografie"</h2>
-            <p>Die Hartlauer Fotogalerie in Linz lädt alle Tierliebhaber zur aktuellen Ausstellung ein. Vom 02. September bis 30. Oktober 2023 wird eine meiner Fotografien dort im Großformat ausgestellt und zum Kauf angeboten. Auch nach der Ausstellung könnt ihr dieses Bild käuflich erwerben.</p>
-            <a href="https://fotogalerie.hartlauer.at/Fotos-kaufen/Viechereien/Playtime.html" target="_blank"><button class="btn btn-light" style="margin-top:10px;">Ausstellungsfotos kaufen</button></a>              
+            <p>Die Hartlauer Fotogalerie in Linz lädt alle Tierliebhaber zur Ausstellung ein. 2022 wurde dort eine meiner Fotografien im Großformat ausgestellt und zum Kauf angeboten. Auch nach der Ausstellung könnt ihr dieses Bild käuflich erwerben.</p>
+            <a href="https://fotogalerie.hartlauer.at/Fotos-kaufen/Viechereien/Playtime.html" target="_blank"><button class="btn btn-dark" style="margin-top:10px;">Ausstellungsfotos kaufen</button></a>              
+          </div>
+        </div>
+
+        <div class="row g-4 pt-5 text-center">
+          <div class="col-md img-fluid" style="align-self: center;">
+            <h2 style="padding-bottom: 10px;">Vernissage der Kärntner Berufsfotografie</h2>
+            <p>2023 entschloss ich mich beim Wettbewerb der WKO mitzumachen und es wurde ein weiteres meiner Fotos gedruckt und im Strandbad Klagenfurt ausgestellt.<br>
+              Natürlich habe ich ein Foto unserer Prinzessin Kaydee eingereicht.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/Home/Ausstellung_Strandbad2023.jpeg" style="max-width:300px;">
           </div>
         </div>
       </div>
     </section>
     <!-- #endregion -->
 
+    <!-- #region Banner3 -->
+    <section class="bg-white">
+      <div class="banner-3" 
+        style="
+          background-image: url(images/Banner/JJ0A1207.jpg);
+          position: relative;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 90vh;
+        "
+        oncontextmenu="return false">
+    </section>
+    <!-- #endregion-->
+    
     <!-- #region Contact -->
     <section class="py-6 p-6">
       <div class="container">
@@ -254,6 +283,8 @@
               <textarea name="message" name="message" rows="6" class="form-control" placeholder="Nachricht" required></textarea>
               <button type="submit" class="btn btn-dark">Abschicken</button>
               <br><span style="font-size:small">Bitte überprüfe nach Deiner Anfrage regelmäßig Deinen Spam-Ordner.</span>
+              <br><span style="font-size: small;">Alle Informationen zum Thema Datenschutz auf unserer Website finden Sie in unserer Datenschutzerklärung. </span>
+              <a href="datenschutz.html" style="font-size: 0.7em; text-decoration: none; color: black;">(Datenschutz)</a>
           </form>
         </div>
         <div class="col-md">
@@ -289,7 +320,7 @@
     <!-- #region Footer -->
     <div class="bg-dark text-light text-center p-2">
       &copy;2023 Caroline Preiml || 
-      <span style="font-size: 0.8em;"><a href="impressum_datenschutz.html" style="text-decoration: none; color: #fff">Impressum & Datenschutz</a></span>
+      <span style="font-size: 0.8em;"><a href="impressum.html" style="text-decoration: none; color: #fff">Impressum</a> & <a href="datenschutz.html" style="text-decoration: none; color: #fff">Datenschutz</a></span>
     </div>
     <!-- #endregion -->
 
