@@ -138,8 +138,9 @@ details p {
 
 @media (max-width: 1400px) {
   #gallerynew {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 200px 200px;
+    margin: 10px 200px;
   }
 
   .page-title {
@@ -158,6 +159,7 @@ details p {
   #gallerynew {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 200px 200px;
+    margin: 10px 100px 10px 100px;
   }
 
   .threeimages {
