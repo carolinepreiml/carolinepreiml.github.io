@@ -1,5 +1,13 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Quicksand:wght@300&display=swap");
+.eapps-instagram-feed-title-container {
+  display: none;
+}
+
+.eapps-instagram-feed-container {
+  padding-top: 50px;
+}
+
 .threeimages {
   max-height: 400px;
   padding: 0 0.5rem;
